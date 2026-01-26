@@ -9,15 +9,17 @@
 
     <!-- Page content -->
     <div class="container mt--8 pb-5">
+
       <div class="row justify-content-center">
-        <div class="col-lg-5 col-md-7">
+        <div class="col-lg-6 col-md-7">
+
           <div class="card bg-secondary shadow border-0">
             <div class="card-header bg-transparent">
               <div class="text-muted text-center mt-2">
                 Inicia Sesión
               </div>
             </div>
-            <div class="card-body px-lg-5 py-lg-5">
+            <div class="card-body px-lg-5 py-lg-4">
               <div class="text-center text-muted mb-4">
 
                 {% if msg %}
@@ -26,7 +28,7 @@
                   <p>
                     Ingresa tus Credenciales
                   </p>
-                {% endif %}  
+                {% endif %}
 
               </div>
 
@@ -56,15 +58,11 @@
                     <span class="text-muted">Recordarme</span>
                   </label>
                 </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary my-4">Sign in</button>
+                <div class="d-flex flex-column justify-content-center">
+                    <button type="submit" class="btn btn-primary mt-4 mb-2">Ingresar</button>
+                    <a href="{% url 'register' %}" class=""><small>Registrarse</small></a>
                 </div>
               </form>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <a href="{% url 'register' %}" class="text-light"><small>Registrarse</small></a>
             </div>
           </div>
         </div>
