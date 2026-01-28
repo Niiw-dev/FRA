@@ -42,6 +42,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link {% if 'fingerprint' in segment %} active {% endif %}" href="{% url 'attendance:fingerprintList' %}">
+              <i class="ni ni-active-40 text-default"></i>
+              <span class="nav-link-text">Huellas</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/login.html">
               <i class="ni ni-key-25 text-info"></i>
               <span class="nav-link-text">Login (template)</span>

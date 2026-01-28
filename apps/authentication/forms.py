@@ -6,7 +6,9 @@ Copyright (c) 2019 - present AppSeed.us
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
 
+CODIGO_FIJO = "AV2026"
 
 class LoginForm(forms.Form):
     username = forms.CharField(
@@ -54,7 +56,21 @@ class SignUpForm(UserCreationForm):
                 "class": "form-control"
             }
         ))
+    codigo_acceso = forms.CharField(
+        label="Código de acceso",
+        widget=forms.PasswordInput(attrs={
+            'class': 'form-control',
+            'placeholder': 'Código de acceso'
+        }),
+        required=True
+    )
 
     class Meta:
         model = User
         fields = ('username', 'email', 'password1', 'password2')
+
+    def clean_codigo_acceso(self):
+        codigo = self.cleaned_data.get('codigo_acceso')
+        if codigo != CODIGO_FIJO:
+            raise ValidationError("Código de acceso incorrecto")
+        return codigo
