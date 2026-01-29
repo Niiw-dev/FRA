@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db028275-b21e-4314-951f-afda711f9cd5" name="Changes" comment="Se ajusta la vista de login y register">
-      <change afterPath="$PROJECT_DIR$/apps/attendance/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/attendance/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/templates/attendance/fingerprintForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/templates/attendance/fingerprintList.html" afterDir="false" />
+    <list default="true" id="db028275-b21e-4314-951f-afda711f9cd5" name="Changes" comment="Se ajustan modelos y vistas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/attendance/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/attendance/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/attendance/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/attendance/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/authentication/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/authentication/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/authentication/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/accounts/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/includes/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/includes/sidenav.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/includes/sidenav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/templates/attendance/fingerprintList.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/attendance/fingerprintList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/templates/layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/layouts/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/developer12/Documentos/FRA/apps/templates/attendance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/developer12/Documentos/FRA/apps/templates/attendance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/templates/attendance" />
@@ -156,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769442955338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se ajustan modelos y vistas">
+      <option name="closed" value="true" />
+      <created>1769641222128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769641222128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se ajusta la vista de login y register" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se ajusta la vista de login y register" />
+    <MESSAGE value="Se ajustan modelos y vistas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se ajustan modelos y vistas" />
   </component>
 </project>
