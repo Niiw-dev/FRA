@@ -2,49 +2,6 @@
 
 Creación de un sistema con python para registrar asistencia a partir de un lector de huella dactilar
 
- ![version](https://img.shields.io/badge/version-1.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-dashboard-django.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-dashboard-django/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-dashboard-django.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-dashboard-django/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
-
-Open-source **[Django Template](https://www.creative-tim.com/templates/django)** crafted on top of **Argon Dashboard**, a modern Bootstrap 4 design. Start your development with a modern Bootstrap 4 Admin template for Django. Argon Dashboard is built with over 100 individual components, giving you the freedom of choosing and combining. If you want to code faster, with a smooth workflow, then you should try this template carefully developed with Django, a well-known Python Framework. **Django codebase** is crafted using a simple, modular structure that follows the best practices and provides authentication, database configuration, and deployment scripts for Docker and Gunicorn/Nginx stack. 
-
-- Up-to-date [dependencies](./requirements.txt): **Django 3.2.6 LTS**
-- [SCSS compilation](#recompile-css) via **Gulp**
-- UI Kit: **Argon Dashboard** (Free Version)
-- Django Codebase - provided by **[AppSeed](https://appseed.us/)**
-- UI-Ready app, SQLite Database, Django Native ORM
-- Modular design, clean code-base
-- Session-Based Authentication, Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx
-
-<br />
-
-![Argon Dashboard Django - Admin Dashboard coded in Django.](https://github.com/creativetimofficial/argon-dashboard-django/blob/master/media/argon-dashboard-django-screen.png)
-
-<br />
-
-## Table of Contents
-
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
-<br />
-
-## Demo
-
-> To authenticate use the default credentials ***test / ApS12_ZZs8*** or create a new user on the **registration page**.
-
-- **Argon Dashboard Django** [Login Page](https://www.creative-tim.com/live/argon-dashboard-django)
-- **[Django Argon Charts](https://github.com/app-generator/django-argon-charts)** - sample projects that showcase real information in charts 
-
-<br />
-
 ## Quick start
 
 > UNZIP the sources or clone the private repository. After getting the code, open a terminal and navigate to the working directory, with product source code.
@@ -83,7 +40,7 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 <br />
 
 ## Documentation
-The documentation for the **Argon Dashboard Django** is hosted at our [website](https://demos.creative-tim.com/argon-dashboard-django/docs/getting-started/getting-started-django.html).
+Proximamente
 
 <br />
 
@@ -152,49 +109,6 @@ The project is coded using a simple and intuitive structure presented bellow:
 
 <br />
 
-## Recompile CSS
-
-To recompile SCSS files, follow this setup:
-
-<br />
-
-**Step #1** - Install tools
-
-- [NodeJS](https://nodejs.org/en/) 12.x or higher
-- [Gulp](https://gulpjs.com/) - globally 
-    - `npm install -g gulp-cli`
-- [Yarn](https://yarnpkg.com/) (optional) 
-
-<br />
-
-**Step #2** - Change the working directory to `assets` folder
-
-```bash
-$ cd apps/static/assets
-```
-
-<br />
-
-**Step #3** - Install modules (this will create a classic `node_modules` directory)
-
-```bash
-$ npm install
-// OR
-$ yarn
-```
-
-<br />
-
-**Step #4** - Edit & Recompile SCSS files 
-
-```bash
-$ gulp scss
-```
-
-The generated file is saved in `static/assets/css` directory.
-
-<br /> 
-
 ## Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
@@ -229,46 +143,10 @@ At present, we officially aim to support the last two versions of the following 
 
 <br />
 
-## Resources
-
-- Demo: <https://www.creative-tim.com/live/argon-dashboard-django>
-- Download Page: <https://www.creative-tim.com/product/argon-dashboard-django>
-- Documentation: <https://demos.creative-tim.com/argon-dashboard-django/docs/1.0/getting-started/getting-started-django.html>
-- License Agreement: <https://www.creative-tim.com/license>
-- Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-dashboard-django/issues)
-
-<br />
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the **Argon Dashboard Django**. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the **Argon Dashboard Django**. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser-specific, so specifying in what browser you encountered the issue might help.
-
-<br />
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
-
-<br />
-
 ## Licensing
-
-- Copyright 2019 - present [Creative Tim](https://www.creative-tim.com/)
-- Licensed under [Creative Tim EULA](https://www.creative-tim.com/license)
-
-<br />
-
-## Useful Links
-
-- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
+. Plantilla:
+  - Copyright 2019 - present [Creative Tim](https://www.creative-tim.com/)
+  - Licensed under [Creative Tim EULA](https://www.creative-tim.com/license)
 
 <br />
 
