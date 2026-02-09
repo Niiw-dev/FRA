@@ -67,7 +67,7 @@ def fingerprint_create(request):
         form = FingerprintForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('fingerprintList')
+            return fingerprintList(request)
     else:
         form = FingerprintForm()
 

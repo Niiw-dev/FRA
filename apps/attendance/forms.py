@@ -15,6 +15,6 @@ class FingerprintForm(forms.ModelForm):
                 'placeholder': 'Nombre completo'
             }),
             'is_active': forms.CheckboxInput(attrs={
-                'class': 'form-check-input'
+                'class': 'centerIsActive',
             }),
         }
