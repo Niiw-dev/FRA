@@ -1,6 +1,6 @@
 # fingerprintReaderAttendance
 
-Creación de un sistema con python para registrar asistencia a partir de un lector de huella dactilar
+Creating a system with Python to record attendance using a fingerprint reader
 
 ## Quick start
 
@@ -144,7 +144,7 @@ At present, we officially aim to support the last two versions of the following 
 <br />
 
 ## Licensing
-. Plantilla:
+* Template:
   - Copyright 2019 - present [Creative Tim](https://www.creative-tim.com/)
   - Licensed under [Creative Tim EULA](https://www.creative-tim.com/license)
 
